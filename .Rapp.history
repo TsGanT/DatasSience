@@ -1,0 +1,304 @@
+pollutantmean <- function(directory, pollutant, id = 1:332){#
+#
+	allData <- numeric()#
+	obsFileName <- function(directory, i){#
+	  if (i < 10){#
+	    filename <- paste(directory, "/", '00', i, ".csv", sep="")#
+	    print("aaaaa")#
+	  }#
+	  if (i >= 10 && i < 100){#
+	    filename <- paste(directory, "/", "0", i, ".csv", sep="")#
+	  }#
+	  else{#
+	    filename <- paste(directory, "/", id, ".csv",sep="")#
+	  }#
+	  filename#
+	}#
+	for (i in id) {#
+	  filename <- obsFileName(directory, i)#
+	}#
+	print(filename)
+}
+pollutantmean("specdata", sulfate, 1:10)
+pollutantmean("specdata", sulfate, 1:9)
+filename
+a <-pollutantmean("specdata", sulfate, 1:9)
+a
+a <-pollutantmean("specdata", sulfate, 1:10)
+a
+a
+a <- "aaa", "bbb"
+getwd()
+setwd("/Users/tangshi/Desktop/program/data_science/datasciencecoursera")
+ls
+ls()
+dir()
+a = data.frame(read.csv("001.csv", header = 1))
+a
+b = a[sulfate]
+b <- head(a["sulfate"])
+b
+b <- head(a["sulfate"], na.rm = TRUE)
+b
+b = head(a["sulfate"], na.rm = TRUE)
+b
+b = head(a['sulfate'], na.rm = TRUE)
+b
+a
+head(a[1])
+b <- head(a[1])
+b
+b <- head(a["Date"]])
+b <- head(a["Date"])
+b
+b <- head(a[["Date"]])
+b
+head(a[["Date"]])
+a['Date']
+a['surlfate']
+a['sulfate']
+a['sulfate', na.rm = TRUE]
+b <- a['sulfate']
+class(b)
+mean(b, na.rm + TRUE)
+mean(b, na.rm =TRUE)
+data <- as.numeric(b)
+b
+c <- !is.na(b)
+c
+b(!c)
+d <- b[!c]
+d
+d <- b[c]
+d
+mean[d]
+e <- as.numeric(d)
+mean(e)
+b = data.frame(read.csv("002.csv", header = 1))
+b
+a
+x <- a['sulfate']
+x
+y <- b['sulfate']
+y
+alldata <- c(x,y)
+alldata
+aballdata <- is.na(alldata)
+absalldata <- alldata[!aballdata]
+absalldata
+aballdata
+c <- !is.na(alldata)
+c
+alldata <- rbind(x,y)
+alldata
+c <- is.na(alldata)
+absalldata <- alldata[!c]
+absalldata
+mean(absalldata)
+data <- NULL
+alldata <- rbind(data,x)
+allldata
+alldata
+alldata
+c <- is.na(alldata)
+absalldata <- alldata[!c]
+absalldata
+mean(absalldata)
+a
+x
+y
+x <- a["sulfate"]
+x
+q <- is.na(a['sulfate']) && is.na(a['nitrate'])
+q
+q <- is.na(a['sulfate']) & is.na(a['nitrate'])
+q
+p <- !q
+p
+a[!q]
+a
+p <- is.na(data["sulfate"]) & is.na(data["nitrate"])
+p
+p <- is.na(a['sulfate']) & is.na(a['nitrate'])
+p
+p <- !is.na(a['sulfate']) & !is.na(a['nitrate'])
+p
+a[p]
+length(a)
+class(a)
+b <- str(a)
+f <- a[p]
+b <- str(f)
+length(b)
+p <- !is.na(a['sulfate']) & !is.na(a['nitrate'])
+p
+sum(p)
+corr <- function(directory, threshold = 0){#
+	complete <- function(directory, id = 1){#
+	allData <- NULL	#
+	obsFileName <- function(directory, i){#
+	  if (i < 10){#
+	    filename = paste(directory, "/", '00', i, ".csv", sep="")#
+	  }#
+	  if (i >= 10 && i < 100){#
+	    filename = paste(directory, "/", "0", i, ".csv", sep="")#
+	  }#
+	  if(i >= 100){#
+	    filename = paste(directory, "/", id, ".csv",sep="")#
+	  }#
+	  filename#
+	}#
+	for (i in id) {#
+	  filename <- obsFileName(directory, i)#
+	  data <- data.frame(read.csv(filename), header = 1)#
+	  p <- !is.na(data["sulfate"]) & !is.na(data["nitrate"])	  #
+	  allData <- rbind(allData, data[p])#
+	}#
+	allData#
+	}	#
+	observations <- complete(directory, 1)#
+}
+corr("specdata")
+corr <- function(directory, threshold = 0){#
+	complete <- function(directory, id = 1){#
+	allData <- NULL	#
+	obsFileName <- function(directory, i){#
+	  if (i < 10){#
+	    filename = paste(directory, "/", '00', i, ".csv", sep="")#
+	  }#
+	  if (i >= 10 && i < 100){#
+	    filename = paste(directory, "/", "0", i, ".csv", sep="")#
+	  }#
+	  if(i >= 100){#
+	    filename = paste(directory, "/", id, ".csv",sep="")#
+	  }#
+	  filename#
+	}#
+	for (i in id) {#
+	  filename <- obsFileName(directory, i)#
+	  data <- data.frame(read.csv(filename), header = 1)#
+	  p <- !is.na(data["sulfate"]) & !is.na(data["nitrate"])	  #
+	  allData <- rbind(allData, data[p])#
+	}#
+	allData#
+	}	#
+	observations <- complete(directory, 1)#
+	print(observations)#
+}
+corr("specdata")
+a[p]
+o <- a[p]
+o
+o["sulfate"]
+l <- o["sulfate"]
+l
+class(l)
+P
+length(b)
+p
+A
+a
+rownames(a) = a$id
+head(a)
+a[id]
+a["id"]
+a.dropna(axis=0,how='any')
+pip install pandas
+import pandas as pd
+class(s)
+class(a)
+a[p]
+class(a[p])
+class(a[p]) == 1
+class(a[p]) == 0
+str(a[p])
+str(a)
+str(p)
+class(p)
+colnames(p)
+rownames(p)
+p
+p <- !is.na(a["sulfate"]) & !is.na(a["nitrate"])
+p
+rownames(p) = p$id
+rownames(p)
+q <- p(rm.na = TRUE)
+p[TRUE]
+a
+a[which(a$sulfate != NA) & which(a$nitrate != NA)]
+a[which(a$sulfate != NA) & which(a$nitrate != NA), ID]
+a[which(a$sulfate != NA) & which(a$nitrate != NA), ]
+a[which(a$sulfate != NA) & which(a$nitrate != NA), ]
+a[which(a$sulfate != NA), ]
+a$sulfate
+a[which(a$sulfate != NA) & which(a$nitrate != NA), ]
+o <- which(a$sulfate != NA) & which(a$nitrate != NA)
+o
+o <- which(a$sulfate != NA) && which(a$nitrate != NA)
+o
+a[which(a$sulfate != NA & a$nitrate != NA), ]
+o <- a[which(a$sulfate != NA & a$nitrate != NA), ]
+o
+o <- a[which(a$sulfate != NA), ]
+o
+x <- c(1,2,3,4,5,6,NA,7,8,9,NA)
+o <- which(x != NA)
+o
+which(x != NA)
+which(x >3 NA)
+which(x >3 )
+which(p > 0 )
+p
+a[which(p>0)]
+a["which(p>0)"]
+q <- which(p > 0 )
+q
+a[q]
+str(q)
+a[1]
+x <- a[1]
+rownamesx
+rownames(x)
+a[rownames(x) = which(p>0)]
+a[rownames(x) == which(p>0)]
+rownames(a)
+a
+rownames(a)
+fliter <- function(x){}
+fliter <- function(x){}
+filter <- function(x){#
+	if(rownames(a) == which(p>0)){#
+		a#
+	}#
+}
+filter(a)
+x <- as.numeric(rownames(a))
+x
+y <- as.numeric(which(p>0))
+y
+a[x == y]
+result <- a[which(rownames(a) == 1)]
+result
+result <- a[which(rownames(a) == 3)]
+result
+a[1,]
+a[which(p>0),]
+x <- a[which(p>0),]
+cox(x["sulfate"], x["nitrate"])
+cor(x["sulfate"], x["nitrate"])
+z <- cbind(1:117, x)
+z
+z <- cbind(tid = 1:117, x)
+z
+z <- cbind(tid = 1:, x)
+x <- which(p >0)
+length(x)
+nrows(x)
+nrow(x)
+class(x)
+x
+a[x,]
+c <- a[x,]
+nrow(x)
+nrow(c)
+c[1:10,]

@@ -1,0 +1,255 @@
+f <- function(a,b){}
+f <- function(a,b){}
+f <- function(a,b){#
+	m <- a**2#
+	m#
+}
+f(2)
+f(2,4)
+f(2,4)
+f <- function(a,b){#
+	m <- a**2#
+	n <- b**2#
+	m,n#
+}
+f <- function(a,b){#
+	m <- a**2#
+	n <- b**2#
+	m#
+	n#
+}
+f(45)
+f(45,14)
+f <- function(a,b){#
+	m <- a**2#
+	n <- b**2#
+	print(m)#
+	print(n)#
+}
+f(45)
+f <- function(a,b){#
+	print(m)#
+	print(n)#
+}
+f(45)
+f(45)
+6 >= -9 && !(6 > 7) && !(!TRUE)
+isTRUE(3)
+isTRUE(1)
+isTRUE(0)
+ints <- sample(10)
+ints
+function(x){sum(x)/length(x)}
+submit()
+boring_function(c(2,3,4,5,6,7))
+a <- function(x){sum(x)/length(x)}
+a(c(2,3,4,5,6))
+evaluate <- function(func, dat){#
+  # Write your code here!#
+  # Remember: the last expression evaluated will be returned! #
+  func(dat)#
+}
+evaluate(function(x){x[-1]}, c(8,4,0))
+evaluate(function(x){x[3]}, c(8,4,0))
+evaluate(function(x){x[-2]}, c(8,4,0))
+evaluate(function(x){x[-3]}, c(8,4,0))
+evaluate(function(x){x[-6]}, c(8,4,0))
+evaluate(function(x){x[-4]}, c(8,4,0))
+mad_libs <- function(...){#
+  # Do your argument unpacking here!#
+  args <- list(...)#
+  place <- args[["place"]]#
+  adjective <- args[["adjective"]]#
+  noun <- args[["noun"]]#
+  # Don't modify any code below this comment.#
+  # Notice the variables you'll need to create in order for the code below to#
+  # be functional!#
+  paste("News from", place, "today where", adjective, "students took to the streets in protest of the new", noun, "being installed on campus.")#
+}
+mad_libs("changsha", "aaa", "bbb")
+Sys.Date()
+Sys.Date() - "1970-01-01"
+Sys.Date() - as.Date("1970-01-01")
+getwd()
+dat = read.csv("001.csv", header = TRUE)
+getwd()
+load(".RData")
+getwd()
+getwd
+getwd()
+loandata=data.frame(read.csv(001.csv, header = 1))
+ls()
+load(".RData")
+setwd("/Users/tangshi/Desktop/program/data_science/datasciencecoursera")
+getwd
+getwd()
+ls
+ls()
+loandata=data.frame(read.csv(001.csv, header = 1))
+loandata=data.frame(read.csv("001.csv", header = 1))
+head(loandata)
+rownames(loandata)=loandata$Date
+head(loandata)
+loandata=data.frame(read.csv("001.csv"))
+a <- loandata
+a
+b<-a[sulfate]
+b<-a[["sulfate"]]
+b
+y <- mean(b,na.rm=TRUE)
+y
+pollutantmean <- function(directory, pollutant, id = 1:332){#
+	loandata=data.frame("directory")#
+	a <- loandata#
+	x <- a[["pollutant"]]#
+	y <- mean(x, na.rm=TRUE)#
+	y#
+}
+pollutantmean <- function(directory, pollutant, id = 1:332){#
+	loandata=data.frame(directory)#
+	a <- loandata#
+	x <- a[[pollutant]]#
+	y <- mean(x, na.rm=TRUE)#
+	y#
+}
+pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean <- function(directory, pollutant, id = 1:332){#
+	setwd("/Users/tangshi/Desktop/program/data_science/datasciencecoursera")#
+	setwd(directory)#
+	for(i in id){#
+		c <- rbind(id.csv)#
+	}#
+	loandata=data.frame(c)#
+	a <- loandata#
+	x <- a[[pollutant]]#
+	y <- mean(x, na.rm=TRUE)#
+	y#
+}
+pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean <- function(directory, pollutant, id = 1:332){#
+	path <- "/Users/tangshi/Desktop/program/data_science/datasciencecoursera"#
+	p <- paste(path, directory, sep="/")#
+	setwd(p)#
+	for(i in id){#
+		c <- rbind(paste(id, ".csv", sep=""))#
+	}#
+	loandata=data.frame(c)#
+	a <- loandata#
+	x <- a[[pollutant]]#
+	y <- mean(x, na.rm=TRUE)#
+	y#
+}
+pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean <- function(directory, pollutant, id = 1:332){#
+	path <- "/Users/tangshi/Desktop/program/data_science/datasciencecoursera"#
+	p <- paste(path, directory, sep="/")#
+	setwd(p)#
+	for(i in id){#
+		c <- rbind(paste(id, ".csv", sep=""))#
+	}#
+	loandata=data.frame(c)#
+	a <- loandata#
+	x <- a[[pollutant]]#
+	x#
+	#y <- mean(x, na.rm=TRUE)#
+	#y#
+}
+pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean <- function(directory, pollutant, id = 1:332){#
+	path <- "/Users/tangshi/Desktop/program/data_science/datasciencecoursera"#
+	p <- paste(path, directory, sep="/")#
+	setwd(p)#
+	for(i in id){#
+		c <- rbind(paste(id, ".csv", sep=""))#
+	}#
+	loandata=data.frame(c)#
+	a <- loandata#
+	x <- a[[pollutant]]#
+	a#
+	#y <- mean(x, na.rm=TRUE)#
+	#y#
+}
+pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean <- function(directory, pollutant, id = 001:332){#
+	path <- "/Users/tangshi/Desktop/program/data_science/datasciencecoursera"#
+	p <- paste(path, directory, sep="/")#
+	setwd(p)#
+	for(i in id){#
+		c <- rbind(paste(id, ".csv", sep=""))#
+	}#
+	loandata=data.frame(c)#
+	a <- loandata#
+	x <- a[[pollutant]]#
+	a#
+	#y <- mean(x, na.rm=TRUE)#
+	#y#
+}
+pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean("specdata", "sulfate", 001:10)
+loandata=data.frame(read.csv("1.csv"))
+pollutantmean <- function(directory, pollutant, id = 001:332){#
+	path <- "/Users/tangshi/Desktop/program/data_science/datasciencecoursera"#
+	p <- paste(path, directory, sep="/")#
+	setwd(p)#
+	for(i in id){#
+		c <- rbind(paste("00",id, ".csv", sep=""))#
+	}#
+	loandata=data.frame(c)#
+	a <- loandata#
+	x <- a[[pollutant]]#
+	a#
+	#y <- mean(x, na.rm=TRUE)#
+	#y#
+}
+pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean <- function(directory, pollutant, id = 001:332){#
+	path <- "/Users/tangshi/Desktop/program/data_science/datasciencecoursera"#
+	p <- paste(path, directory, sep="/")#
+	setwd(p)#
+	for(i in id){#
+		c <- sapply(names(data), function(id){paste("00",id, ".csv", sep="")})#
+	}#
+	#loandata <- sapply(a, function(x){})#
+	loandata=data.frame(c)#
+	a <- loandata#
+	x <- a[[pollutant]]#
+	c#
+	#y <- mean(x, na.rm=TRUE)#
+	#y#
+}
+pollutantmean("specdata", "sulfate", 1:10)
+q <- pollutantmean("specdata", "sulfate", 1:10)
+q
+q[1]
+q[[1]]
+pollutantmean <- function(directory, pollutant, id = 001:332){#
+	path <- "/Users/tangshi/Desktop/program/data_science/datasciencecoursera"#
+	p <- paste(path, directory, sep="/")#
+	setwd(p)#
+	for(i in id){#
+		c <- rbind(paste("00",id, ".csv", sep=""))#
+	}#
+	loandata=data.frame("c")#
+	a <- loandata#
+	x <- a[[pollutant]]#
+	a#
+	#y <- mean(x, na.rm=TRUE)#
+	#y#
+}
+q <- pollutantmean("specdata", "sulfate", 1:3)
+q
+pollutantmean <- function(directory, pollutant, id = 001:332){#
+	path <- "/Users/tangshi/Desktop/program/data_science/datasciencecoursera"#
+	p <- paste(path, directory, sep="/")#
+	setwd(p)#
+	for(i in id){#
+		c <- rbind(paste("00",id, ".csv", sep=""))#
+	}#
+	loandata=data.frame("c")#
+	a <- loandata#
+	x <- a[[pollutant]]#
+	x#
+	#y <- mean(x, na.rm=TRUE)#
+	#y#
+}
+pollutantmean("specdata", "sulfate", 1:3)
